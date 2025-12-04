@@ -1,0 +1,24 @@
+# Dependências
+node_modules/
+
+# Build do Next.js
+.next/
+build/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ambiente
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
