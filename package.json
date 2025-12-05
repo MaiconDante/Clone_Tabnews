@@ -4,7 +4,9 @@
   "description": "Desenvolvimento de forma didática do https://tabnews.com.br pelo Curso.Dev",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "MaiconDante",
   "license": "MIT",
@@ -12,5 +14,8 @@
     "next": "^15.5.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4"
   }
 }
